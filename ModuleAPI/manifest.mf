@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: net.casnw.home.modules.api
+OpenIDE-Module-Localizing-Bundle: net/casnw/home/modules/api/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

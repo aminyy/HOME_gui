@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="hom+xml">
+                <folder name="MultiView">
+                    <file name="net-casnw-home-gui-homFileType-HomFileDataObject-createEditor.instance">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject.createEditor(org.openide.util.Lookup)-->
+                        <attr
+                            methodvalue="org.netbeans.core.spi.multiview.MultiViewFactory.createMultiViewDescription" name="instanceCreate"/>
+                        <attr name="instanceClass" stringvalue="org.netbeans.core.multiview.ContextAwareDescription"/>
+                        <attr name="class" stringvalue="net.casnw.home.gui.homFileType.HomFileDataObject"/>
+                        <attr
+                            bundlevalue="net.casnw.home.gui.homFileType.Bundle#LBL_HomFile_EDITOR" name="displayName"/>
+                        <attr name="iconBase" stringvalue="net/casnw/home/gui/homFileType/alarmclock.png"/>
+                        <attr name="preferredID" stringvalue="HomFile"/>
+                        <attr intvalue="1" name="persistenceType"/>
+                        <attr intvalue="1000" name="position"/>
+                        <attr name="method" stringvalue="createEditor"/>
+                        <attr boolvalue="true" name="sourceview"/>
+                    </file>
+                    <file name="net-casnw-home-gui-homFileType-HomFileVisualElement.instance">
+                        <!--net.casnw.home.gui.homFileType.HomFileVisualElement-->
+                        <attr
+                            methodvalue="org.netbeans.core.spi.multiview.MultiViewFactory.createMultiViewDescription" name="instanceCreate"/>
+                        <attr name="instanceClass" stringvalue="org.netbeans.core.multiview.ContextAwareDescription"/>
+                        <attr name="class" stringvalue="net.casnw.home.gui.homFileType.HomFileVisualElement"/>
+                        <attr
+                            bundlevalue="net.casnw.home.gui.homFileType.Bundle#LBL_HomFile_VISUAL" name="displayName"/>
+                        <attr name="iconBase" stringvalue="net/casnw/home/gui/homFileType/alarmclock.png"/>
+                        <attr name="preferredID" stringvalue="HomFileVisual"/>
+                        <attr intvalue="2" name="persistenceType"/>
+                        <attr intvalue="2000" name="position"/>
+                    </file>
+                    <file name="net-casnw-home-gui-homFileType-HomFileVisualElement1.instance">
+                        <!--net.casnw.home.gui.homFileType.HomFileVisualElement1-->
+                        <attr
+                            methodvalue="org.netbeans.core.spi.multiview.MultiViewFactory.createMultiViewDescription" name="instanceCreate"/>
+                        <attr name="instanceClass" stringvalue="org.netbeans.core.multiview.ContextAwareDescription"/>
+                        <attr name="class" stringvalue="net.casnw.home.gui.homFileType.HomFileVisualElement1"/>
+                        <attr
+                            bundlevalue="net.casnw.home.gui.homFileType.Bundle#LBL_HomFile_VISUAL1" name="displayName"/>
+                        <attr name="iconBase" stringvalue="net/casnw/home/gui/homFileType/alarmclock.png"/>
+                        <attr name="preferredID" stringvalue="HomFileVisual1"/>
+                        <attr intvalue="2" name="persistenceType"/>
+                        <attr intvalue="2000" name="position"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="MIMEResolver">
+            <file name="net-casnw-home-gui-homFileType-HomFileDataObject-Extension.xml">
+                <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                <attr
+                    methodvalue="org.openide.filesystems.MIMEResolver.create" name="instanceCreate"/>
+                <attr name="instanceClass" stringvalue="org.openide.filesystems.MIMEResolver"/>
+                <attr name="mimeType" stringvalue="text/hom+xml"/>
+                <attr name="ext.0" stringvalue="hom"/>
+                <attr name="ext.1" stringvalue="HOM"/>
+                <attr
+                    bundlevalue="net.casnw.home.gui.homFileType.Bundle#LBL_HomFile_LOADER" name="displayName"/>
+            </file>
+        </folder>
+        <folder name="PropertyEditorManager">
+            <file name="Class-net-casnw-home-gui-homFileType-DatePropertyEditor.instance">
+                <!--net.casnw.home.gui.homFileType.DatePropertyEditor-->
+                <attr
+                    methodvalue="org.netbeans.modules.openide.nodes.NodesRegistrationSupport.createClassRegistration" name="instanceCreate"/>
+                <attr name="propertyEditorClass" stringvalue="net.casnw.home.gui.homFileType.DatePropertyEditor"/>
+                <attr name="instanceOf" stringvalue="org.netbeans.modules.openide.nodes.NodesRegistrationSupport$PEClassRegistration"/>
+                <attr name="targetType.1" stringvalue="java.util.Date"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Loaders">
+        <folder name="text">
+            <folder name="hom+xml">
+                <folder name="Actions">
+                    <file name="org-openide-actions-OpenAction.shadow">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-OpenAction.instance"/>
+                        <attr intvalue="100" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-OpenAction-separatorAfter.instance">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.shadow">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                        <attr intvalue="300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction.shadow">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                        <attr intvalue="400" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-CopyAction-separatorAfter.instance">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="500" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.shadow">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr intvalue="600" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.shadow">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-RenameAction.instance"/>
+                        <attr intvalue="700" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction-separatorAfter.instance">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="800" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.shadow">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAsTemplateAction.instance"/>
+                        <attr intvalue="900" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction-separatorAfter.instance">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1000" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.shadow">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-FileSystemAction.instance"/>
+                        <attr intvalue="1100" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction-separatorAfter.instance">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                        <attr intvalue="1200" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.shadow">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-ToolsAction.instance"/>
+                        <attr intvalue="1300" name="position"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.shadow">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                        <attr intvalue="1400" name="position"/>
+                    </file>
+                </folder>
+                <folder name="Factories">
+                    <file name="net-casnw-home-gui-homFileType-HomFileDataObject.instance">
+                        <!--net.casnw.home.gui.homFileType.HomFileDataObject-->
+                        <attr name="iconBase" stringvalue="net/casnw/home/gui/homFileType/alarmclock.png"/>
+                        <attr intvalue="300" name="position"/>
+                        <attr
+                            bundlevalue="net.casnw.home.gui.homFileType.Bundle#LBL_HomFile_LOADER" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.loaders.DataLoaderPool.factory" name="instanceCreate"/>
+                        <attr name="dataObjectClass" stringvalue="net.casnw.home.gui.homFileType.HomFileDataObject"/>
+                        <attr name="mimeType" stringvalue="text/hom+xml"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="Other">
+            <file name="HomFileTemplate.hom" url="nbresloc:/net/casnw/home/gui/homFileType/HomFileTemplate.hom">
+                <!--net.casnw.home.gui.homFileType-->
+                <attr boolvalue="true" name="template"/>
+                <attr boolvalue="true" name="requireProject"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

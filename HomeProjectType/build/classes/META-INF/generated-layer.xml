@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Templates">
+        <folder name="Project">
+            <folder name="Home">
+                <file name="HomeSample1Project.zip" url="nbresloc:/net/casnw/home/gui/project/samples/HOME1/HomeSample1Project.zip">
+                    <!--net.casnw.home.gui.project.samples.HOME1.HomeSample1WizardIterator-->
+                    <attr boolvalue="true" name="template"/>
+                    <attr
+                        bundlevalue="net.casnw.home.gui.project.samples.HOME1.Bundle#HomeSample1_displayName" name="displayName"/>
+                    <attr name="iconBase" stringvalue="net/casnw/home/gui/project/samples/HOME1/Home1Sample.png"/>
+                    <attr name="instantiatingWizardURL" urlvalue="nbresloc:/net/casnw/home/gui/project/samples/HOME1/HomeSample1Description.html"/>
+                    <attr name="instantiatingIterator" newvalue="net.casnw.home.gui.project.samples.HOME1.HomeSample1WizardIterator"/>
+                    <attr boolvalue="true" name="requireProject"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Projects">
+        <folder name="net-casnw-home-gui-project">
+            <folder name="Customizer">
+                <file name="net-casnw-home-gui-project-panels-GeneralHomeProperties-createGeneral.instance">
+                    <!--net.casnw.home.gui.project.panels.GeneralHomeProperties.createGeneral()-->
+                    <attr
+                        methodvalue="net.casnw.home.gui.project.panels.GeneralHomeProperties.createGeneral" name="instanceCreate"/>
+                    <attr intvalue="10" name="position"/>
+                </file>
+            </folder>
+            <folder name="Nodes">
+                <file name="net-casnw-home-gui-project-nodes-HomeNodeFactory.instance">
+                    <!--net.casnw.home.gui.project.nodes.HomeNodeFactory-->
+                    <attr intvalue="10" name="position"/>
+                </file>
+                <file name="net-casnw-home-gui-project-sub-HomeSubProjectNodeFactory.instance">
+                    <!--net.casnw.home.gui.project.sub.HomeSubProjectNodeFactory-->
+                    <attr intvalue="20" name="position"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

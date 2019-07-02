@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>net.casnw.hom.chat</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>ChartDirector</package>
+                <package>net.casnw.home.chart.bar</package>
+                <package>net.casnw.home.chart.contour</package>
+                <package>net.casnw.home.chart.line</package>
+                <package>net.casnw.home.chart.trendLine</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/ChartDirector.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/ChartDirector.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>

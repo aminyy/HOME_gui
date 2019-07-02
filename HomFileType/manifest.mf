@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: net.casnw.home.gui.homFileType
+OpenIDE-Module-Localizing-Bundle: net/casnw/home/gui/homFileType/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model name="ss" class="net.casnw.home.model.Model"> 
+  <context class="net.casnw.home.model.TemporalContext" name="temporalContext"> 
+    <var name="iteratorNum" attribute="iteratorNum" value="12" type="PoolInteger"/>  
+    <module class="net.casnw.home.thornthwaite.Climate" name="Climate"> 
+      <var name="inputName" attribute="inputName" type="PoolString" value="data/input-data.dat"/>  
+      <var name="year" attribute="year"/>  
+      <var name="time" attribute="time"/>  
+      <var name="temp" attribute="temp"/>  
+      <var name="precip" attribute="precip"/> 
+    </module>  
+    <module class="net.casnw.home.thornthwaite.Daylen" name="Daylen"> 
+      <var name="daylength" attribute="daylength"/>  
+      <var name="time" attribute="time"/>  
+      <var name="year" attribute="year" type="PoolInteger"/> 
+    </module>  
+    <module class="net.casnw.home.thornthwaite.SoilMoisture" name="SoilMoisture"> 
+      <var name="soilMoistStorCap" attribute="soilMoistStorCap" type="PoolDouble"/>  
+      <var name="potET" attribute="potET" type="PoolDouble"/>  
+      <var name="temp" attribute="temp" type="PoolDouble"/>  
+      <var name="precip" attribute="precip" type="PoolDouble"/>  
+      <var name="prestor" attribute="prestor" type="PoolDouble"/>  
+      <var name="soilMoistStor" attribute="soilMoistStor" type="PoolDouble"/>  
+      <var name="surfaceRunoff" attribute="surfaceRunoff" type="PoolDouble"/>  
+      <var name="pmpe" attribute="pmpe" type="PoolDouble"/>  
+      <var name="actET" attribute="actET" type="PoolDouble"/>  
+      <var name="dff" attribute="dff" type="PoolDouble"/> 
+    </module>  
+    <context class="net.casnw.home.model.TemporalContext" name="condition"> 
+      <var name="startTime" attribute="startTime" type="PoolString"/>  
+      <var name="endTime" attribute="endTime" type="PoolString"/>  
+      <var name="intervalUnit" attribute="intervalUnit" type="PoolString"/>  
+      <var name="intervalCount" attribute="intervalCount" type="PoolInteger"/>  
+      <var name="iteratorNum" attribute="iteratorNum" type="PoolLong"/>  
+      <context class="net.casnw.home.model.TemporalContext" name="cc"> 
+        <var name="startTime" attribute="startTime" type="PoolString"/>  
+        <var name="endTime" attribute="endTime" type="PoolString"/>  
+        <var name="intervalUnit" attribute="intervalUnit" type="PoolString"/>  
+        <var name="intervalCount" attribute="intervalCount" type="PoolInteger"/>  
+        <var name="iteratorNum" attribute="iteratorNum" type="PoolLong"/> 
+      </context>  
+      <context class="net.casnw.home.model.SpatialContext" name="dd"> 
+        <var name="rowsNum" attribute="rowsNum" type="PoolInteger"/>  
+        <var name="colsNum" attribute="colsNum" type="PoolInteger"/> 
+      </context> 
+    </context>
+    <context class="net.casnw.home.model.TemporalContext" name="ee">
+      <var name="startTime" attribute="startTime" type="PoolString"/>
+      <var name="endTime" attribute="endTime" type="PoolString"/>
+      <var name="intervalUnit" attribute="intervalUnit" type="PoolString"/>
+      <var name="intervalCount" attribute="intervalCount" type="PoolInteger"/>
+      <var name="iteratorNum" attribute="iteratorNum" type="PoolLong"/>
+      <module class="net.casnw.home.thornthwaite.Climate" name="Climate">
+        <var name="year" attribute="year" type="PoolInteger"/>
+        <var name="time" attribute="time" type="PoolInteger"/>
+        <var name="temp" attribute="temp" type="PoolDouble"/>
+        <var name="precip" attribute="precip" type="PoolDouble"/>
+        <var name="inputName" attribute="inputName" type="PoolString"/>
+      </module>
+    </context> 
+  </context> 
+</model>

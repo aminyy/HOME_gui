@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Navigator">
+        <folder name="Panels">
+            <folder name="text">
+                <folder name="hom+xml">
+                    <file name="net-casnw-hom-gui-homNavigator-HomNavigatorPanel.instance">
+                        <!--net.casnw.hom.gui.homNavigator.HomNavigatorPanel-->
+                        <attr
+                            methodvalue="org.netbeans.modules.navigator.LazyPanel.create" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="net.casnw.hom.gui.homNavigator.HomNavigatorPanel"/>
+                        <attr name="displayName" stringvalue="Home File Content"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
